@@ -28,6 +28,7 @@
     margin: 1rem auto;
     max-width: 90%;
     border-radius: 10px;
+    padding: 0.5rem;
 }
 
 .card-max{
@@ -38,3 +39,9 @@
 .drop-menu-location{
     justify-content: left;
 }
+
+.btn-spacement{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+

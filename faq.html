@@ -51,59 +51,58 @@
         </nav>
     </header>
 
-    <main class="card card-faq flex-center">
+    <main class="card card-faq">
         <h1 class="flex-center">FAQ/Suporte</h1>
 
         <h2 class="flex-center">Perguntas Frequentes</h2>
 
-        <div class="position-relative">
-            <div class="dropdown">
-                <h4 class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Como faço para criar uma conta?</h4>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-item">
-                        <p>Para a criação de uma conta em nosso site são necessários os seguintes dados: CPF, telefone, E-mail.
-                        Com esses dados em mãos é necessário somente seguir o passo a passo que a plataforma irá repassar.
-                        </p>
-                    </li>
-                </ul>
+        <div class="btn-spacement">
+            <div class="" role="button" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <h5 class="">Como faço para criar uma conta?</h5>
             </div>
-            <div class="position-relative">
-                <h4 class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">A plataforma se responsabiliza pela contratação do serviço?</h4>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li class="dropdown-item">
-                        <p>Não, nós não nos responsabilizamos pelos serviços. Nossa apenas plataforma apresenta os serviços de nossos prestadores.</p>
-                    </li>
+            <div class="collapse" id="collapseExample">
+                <p>Para a criação de uma conta em nosso site são necessários os seguintes dados: CPF, telefone, E-mail.
+                Com esses dados em mãos é necessário somente seguir o passo a passo que a plataforma irá repassar.</p>
+            </div>
 
+            <div class="" role="button" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <h5 class="">A plataforma se responsabiliza pela contratação do serviço?</h5>
             </div>
-            <div class="position-relative">
-                <h4 class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Qual o valor da taxa para que eu possa disponibilizar meus serviços?</h4>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li class="dropdown-item">
-                        <p>A taxa para disponibilizar nossos serviços é de R$150 por mês.</p>
-                    </li>
+            <div class="collapse" id="collapseExample">
+                <p>Não, nós não nos responsabilizamos pelos serviços. Nossa apenas plataforma apresenta os serviços de nossos prestadores.</p>
+            </div>
+
+            <div class="" role="button" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <h5 class="">Qual o valor da taxa para que eu possa disponibilizar meus serviços?</h5>
+            </div>
+            <div class="multi-collapse collapse" id="collapseExample">
+                <p>A taxa para disponibilizar nossos serviços é de R$150 por mês.</p>
             </div>
         </div>
-        <div class="container">
-            <h2>Formulário de Dúvidas</h2>
-            <form>
-              <div class="mb-3">
+    </main>
+       
+    <div class="container card card-faq">
+        <h2 class="flex-center">Formulário de Dúvidas</h2>
+        <form>
+            <div class="mb-3 btn-spacement">
                 <label for="nomeCompleto" class="form-label">Nome Completo</label>
                 <input type="text" class="form-control" id="nomeCompleto" required>
-              </div>
-              <div class="mb-3">
+            </div>
+            <div class="mb-3 btn-spacement">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" required>
-              </div>
-              <div class="mb-3">
+            </div>
+            <div class="mb-3 btn-spacement">
                 <label for="duvida" class="form-label">Dúvida</label>
                 <textarea class="form-control" id="duvida" rows="3" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-          </div>
-        
-
-    </main>
+            </div>
+            <div class="flex-center">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-danger btn-spacement">Limpar</button>
+            </div>
+        </form>
+      </div>
+    
 
     <footer class="py-3 bg-primary">
         <ul class="nav justify-content-center border-bottom pb-1 mb-3">
