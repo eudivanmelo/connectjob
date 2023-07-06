@@ -45,3 +45,10 @@
     margin-right: 1rem;
 }
 
+.src-control {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+
