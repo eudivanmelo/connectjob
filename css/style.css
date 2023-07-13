@@ -54,3 +54,38 @@
     box-shadow: none !important;
     background-color: transparent !important;
 }
+
+.product {
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.product img {
+    width: 156px;
+    display: block;
+    border-radius: 5px 0 0 5px;
+}
+
+.product .body{
+    padding: 10px;
+    position: relative;
+}
+
+.product .title{
+    font-size: 16px;
+}
+
+.product .content{
+    font-size: 12px;
+    color: #423B3B;
+}
+
+.product .link{
+    font-size: 10px;
+    color: #423B3B;
+    position: absolute;
+    top: calc(100% - 25px);
+    left: calc(100% - 70px);
+}
